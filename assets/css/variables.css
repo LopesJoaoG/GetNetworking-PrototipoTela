@@ -1,0 +1,40 @@
+:root{
+
+    /*
+    CORES
+    */
+
+    --white: rgb(255,255,255);
+    --off-white: rgb(224,224,224);
+    --yellow: rgb(255,196,20);
+    --oxford-blue: rgb(22,32,50);
+    --oxford-blue-50: rgba(22, 32, 50, 0.8);
+    --azure: rgb(0, 123, 255);
+    --light-azure: rgb(49, 130, 237);
+    --rich-black-fogra-29: rgb(19, 23, 32);
+    --rich-black-fogra-30: rgb(17, 23, 34);
+    --live-indicator: rgb(235, 86, 86);
+    --live-indicator-shadow: rgba(235, 86, 86, 0.5);
+
+    /*
+    TIPOGRAFICA
+    */
+
+    --ff-inter: "Inter", sans-serif;
+
+    --section-heading: 40px;
+    --fs-lg: 22px;
+    --fs-md: 17px;
+    --fs-sm: 14px;
+    --fs-x-sm: 12px;
+
+    --fw-7: 700;
+    --fw-6: 600;
+    --fw-5: 500;
+
+    /*
+    ESPAÇAMENTO
+    */
+
+    --px: 120px; /* padding-left & padding-right*/
+}

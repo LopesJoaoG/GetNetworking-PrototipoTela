@@ -1,0 +1,101 @@
+/*
+REMOÇÃO DE MARGIN E PADDING PADRÃO
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0,5s ease;
+
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/*
+FONTE PADRÃO
+*/
+
+html{
+    font-family: var(--ff-inter);
+}
+
+/*
+COLORAÇÃO
+*/
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--white);
+}
+
+body{
+    background: var(--rich-black-fogra-29);
+    color: var(--off-white);
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+IMAGEM
+*/
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+/*
+FORMULÁRIO
+*/
+
+input, button, select{
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+BOTÃO
+*/
+
+button{
+    color: var(--off-white);
+    cursor: pointer;
+}
+
+/*
+*/
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: var(--off-white);
+}
+
+/*
+BARRA DE ROLAGEM
+*/
+
+::-webkit-scrollbar{
+    background: transparent;
+    border-left: 1px solid var(--oxford-blue);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--light-azure);
+    border-radius: 5em;
+    border: 3px solid var(--rich-black-fogra-29);
+}
+
+
+
+
+
