@@ -5,8 +5,7 @@ REMOÇÃO DE MARGIN E PADDING PADRÃO
 *{
     margin: 0;
     padding: 0;
-    transition: all 0,5s ease;
-
+    transition: all 0.5s ease;
 }
 
 *, *::before, *::after{
@@ -70,11 +69,11 @@ button{
 /*
 */
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     display: block;
     color: var(--off-white);
